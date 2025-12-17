@@ -9,7 +9,7 @@ import com.example.demo.service.StudentService;
 publice class StudentServiceImple implements StudentService{
     private final StudentReponsitory StudentReponsitory;
     public StudentServiceImple(StudentReponsitory StudentReponsitory){
-        this.studentReponsitory
+        this.studentReponsitory=studentrepository;
     }
 
 
