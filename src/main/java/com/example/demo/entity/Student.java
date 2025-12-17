@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.nxspeed.entity;
 
 import java.time.LocalDate;
 
@@ -6,11 +6,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-//import jakarta.persistence.Table;
+// import jakarta.persistence.Table;
 @Entity
-//@Table(name="StudentTable")
+// @Table(name="StudentTable")
 public class Student {
-    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -42,6 +41,6 @@ public class Student {
         this.email = email;
         
     }
-    public Student() {
-    } 
+    public Student() {
+    } 
 }
