@@ -9,7 +9,7 @@ import java.util.List;
 @Configuration
 public class OpenApiConfig {
 
-    @Bean ZZZZZZZZZZZZSSSSSSSSSSSSSSSSSSSSSQ
+    @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 // You need to change the port as per your server
